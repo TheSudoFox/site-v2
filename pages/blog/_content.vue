@@ -13,7 +13,7 @@
     </div>
   </section>
 </template>
-
+<>
 <script>
 export default {
   asyncData: async ({ app, route, payload }) => ({

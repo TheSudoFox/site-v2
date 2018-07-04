@@ -39,7 +39,7 @@
               <div class="media-content">
                 <div class="content">
                   <h3 class="title is-3"><a href="https://reactjs.org" target="_blank">ReactJS</a></h3>
-                  <p<a href="https://reactjs.org" target="_blank">React</a> introduced me to many new, exciting concepts. Coming from the world of <a href="https://angularjs.org" target="_blank">Angular 1's</a> scope and dependency injection React's component-based approach was a breath of fresh air. React also introduced me to Flux, and later Redux, which have helped me better grasp scope in more contexts.</p>
+                  <p><a href="https://reactjs.org" target="_blank">React</a> introduced me to many new, exciting concepts. Coming from the world of <a href="https://angularjs.org" target="_blank">Angular 1's</a> scope and dependency injection React's component-based approach was a breath of fresh air. React also introduced me to Flux, and later Redux, which have helped me better grasp scope in more contexts.</p>
                 </div>
               </div>
               <div class="media-right">

@@ -1,6 +1,6 @@
 <template>
   <div class="has-text-centered project-image">
-    <img style="max-height: 250px;" :src="`${picture}`"></img>
+    <img style="max-height: 250px;" :src="`${picture}`">&lt;/img>
   </div>
 </template>
 <script>
