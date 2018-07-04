@@ -1,6 +1,6 @@
 <template>
   <div class="has-text-centered header-image">
-    <img :src="`/img/posts/${picture}`">&lt;/img>
+    <img :src="`/img/posts/${picture}`"></img>
     <h5 class="is-subtitle is-5">{{description}}</h5>
   </div>
 </template>
