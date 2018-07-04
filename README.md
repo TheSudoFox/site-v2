@@ -1,20 +1,25 @@
-# personal_site
+# mysitev2
 
-# Prerequisites:
+> Ethan's Personal Site
 
-- [Node.js](https://nodejs.org/en/) — `brew install node`
-- [Gulp.js](http://gulpjs.com/) — `npm install -g gulp`
+## Build Setup
 
-# Quick start:
+``` bash
+# enter directory Nuxt source directory
+$ cd site
 
-Install dependencies:
+# install dependencies
+$ npm install # Or yarn install
 
-```bash
-npm install
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
 ```
 
-Start development server:
-
-```bash
-npm start
-```
+For detailed explanation on how things work, checkout the [nuxt.js](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/nuxtent) docs.

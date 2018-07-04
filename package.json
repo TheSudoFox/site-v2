@@ -1,40 +1,39 @@
 {
-  "name": "personal_site",
-  "version": "0.1.0",
-  "description": "Its all about a Weissman score > 5.0",
-  "main": "index.js",
+  "name": "mysitev2",
+  "version": "1.0.0",
+  "description": "Ethan's Personal Site",
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-solid": "^5.0.8",
+    "@fortawesome/vue-fontawesome": "0.0.22",
+    "@nuxtjs/axios": "latest",
+    "nuxt": "^1.4.1",
+    "nuxt-buefy": "0.0.4",
+    "nuxtent": "^1.4.1",
+    "vuex": "^3.0.1"
+  },
   "scripts": {
-    "test": "mocha",
-    "start": "gulp",
-    "build": "gulp build"
+    "dev": "nuxt",
+    "build": "NODE_ENV='production' nuxt build",
+    "build-dev": "nuxt build",
+    "start": "NODE_ENV='production' nuxt start",
+    "start-dev": "nuxt start",
+    "generate": "STATIC=true nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "precommit": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheSudoFox/personal_site.git"
-  },
-  "keywords": [],
-  "author": "Ethan Fox <foxethan@gmail.com> (ethanfox.me)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TheSudoFox/personal_site/issues"
-  },
-  "homepage": "https://github.com/TheSudoFox/personal_site#readme",
   "devDependencies": {
-    "babel-core": "^5.8.23",
-    "browser-sync": "^2.9.3",
-    "chai": "^3.4.0",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.0.1",
-    "gulp-babel": "^5.2.1",
-    "gulp-changed": "^1.3.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-minify-css": "^1.2.1",
-    "gulp-mocha": "^2.1.3",
-    "gulp-sass": "^2.0.4",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-uglify": "^1.4.2",
-    "mocha": "^2.3.3",
-    "node-normalize-scss": "^1.0.3",
-    "rimraf": "^2.4.3"
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^6.0.7"
   }
 }
