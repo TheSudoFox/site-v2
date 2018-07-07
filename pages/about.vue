@@ -11,19 +11,17 @@
     </section>
     <section class="section">
       <div class="container">
-        <p class="aboutmeinfo">My name is Ethan Fox and I love learning and bringing new ideas to life. I also have a deep desire to
-        help improve the world at large through the fruits of my labor.
+        <p class="aboutmeinfo">My name is Ethan Fox; I love learning about pretty much everything and bringing new ideas to life!
 
-        To fuel this fire, I spend a lot of my days reading and listening. Both fortunately and unfortunately, a
-        lot of things fall into my realm of interest. These topics mainly center around technology, science,
-        and geopolitics; however I've spent long days down Google/YouTube/Wikipedia holes looking up
-        everything from cooking to architecture!
+        To fuel this fire, I spend a lot of my days reading, listening to audiobooks/podcasts, and watching videos online. The topics covered mainly centre around technology, science,
+        and geopolitics. Those are my primary interests, I've spent long days down Google/YouTube/Wikipedia holes looking up
+        everything from cooking to classic Roman architecture!
 
-        Outside of intellectual endeavors I play way too many video games, travel as much as possible, and want to
-        cuddle every dog I come into contact with.
+        Outside of intellectual endeavours: I play way too many video games, travel as much as possible, and want to
+        cuddle every dog I see.
 
-        You can read my thoughts on all of these subjects and more on my blog, or feel free to reach out
-        and email me at me@ethanfox.me to talk.</p>
+        You can read my thoughts on all of these subjects and more on my <a href="/blog">blog</a>, tweet at <a href="https://twitter.com/sudofox" target="_blank">me</a> or feel free to reach out
+        and email me at foxethan@gmail.com to talk.</p>
       </div>
     </section>
   </div>
@@ -64,6 +62,6 @@ p {
   padding: 1rem;
 }
 .aboutmeinfo {
-  padding-top: 15vh;
+  padding-top: 1vh;
 }
 </style>

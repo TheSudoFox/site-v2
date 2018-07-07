@@ -13,7 +13,8 @@
 
 
       <div class="container" style="padding: 0 0 1rem 0;">
-      <a target="_blank" href="https://github.com/thesudofox"><button class="button is-primary">GitHub</button></a>
+        <a style="display: block; margin-bottom: 1rem;" target="_blank" href="https://github.com/thesudofox"><button class="button" style="color: #1565C0; background-color: #B3E5FC">GitHub</button></a>
+        <a style="display: block; margin-top: 1rem;" target="_blank" href="EthanFoxResume.pdf"><button class="button" style="color: #1565C0; background-color: #B3E5FC">Resume</button></a>
       </div>
       <div style="background-color: #ffe0e0; padding: 2rem;" class="container">
         <h1 class="is-3 title" style="color: #1565C0">Assistagrow</h1>
