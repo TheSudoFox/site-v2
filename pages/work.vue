@@ -2,9 +2,14 @@
   <div>
     <section class="hero">
       <div class="container">
-        <div class="columns is-mobile is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1" style="color: #B3E5FC">My Work</h1>
+        <div class="has-text-centered">
+          <h1 class="title is-1" style="color: #B3E5FC">My Work</h1>
+        </div>
+        <div class="columns is-mobile has-text-centered">
+          <div class="column" style="padding-top: 2rem;">
+            <a target="_blank" href="https://github.com/thesudofox"><button class="button" style="color: #1565C0; background-color: #B3E5FC;">GitHub</button></a>
+            <a target="_blank" href="EthanFoxResume.pdf"><button class="button" style="color: #1565C0; background-color: #B3E5FC; margin: 0 1rem 0 1rem;">Resume</button></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ethan-fox-5093a293/"><button class="button" style="color: #1565C0; background-color: #B3E5FC;">LinkedIn</button></a>
           </div>
         </div>
       </div>
@@ -12,11 +17,6 @@
     <section class="section">
 
 
-      <div class="container" style="padding: 0 0 1rem 0;">
-        <a target="_blank" href="https://github.com/thesudofox"><button class="button" style="color: #1565C0; background-color: #B3E5FC;">GitHub</button></a>
-        <br>
-        <a target="_blank" href="EthanFoxResume.pdf"><button class="button" style="color: #1565C0; background-color: #B3E5FC; margin-top: 1rem;">Resume</button></a>
-      </div>
       <div style="background-color: #ffe0e0; padding: 2rem;" class="container">
         <h1 class="is-3 title" style="color: #1565C0">Assistagrow</h1>
         <h1 class="is-5 sub-title"><b>Title:</b> Co-Founder, Chief Product Officer</h1>
