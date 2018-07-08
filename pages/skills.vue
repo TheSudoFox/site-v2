@@ -196,7 +196,7 @@
               </div>
             </div>
             <div class="media-right">
-              <figure class="image"><img class="image is-128x128" src="https://pbs.twimg.com/profile_images/907268332776288257/ebbYU79I_400x400.jpg" alt="Image"></figure>
+              <figure class="image"><font-awesome-icon style="font-size: 128px;" :icon="iconRecycle"/></figure>
             </div>
           </article>
         </div>
@@ -208,6 +208,7 @@
 <script>
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 import faPlus from '@fortawesome/fontawesome-free-solid/faPlus'
+import faRecycle from '@fortawesome/fontawesome-free-solid/faRecycle'
 
 export default {
   name: 'MySkills',
@@ -217,8 +218,8 @@ export default {
     }
   },
   computed: {
-    icon () {
-      return faPlus
+    iconRecycle () {
+      return faRecycle
     }
   },
   components: {
@@ -228,6 +229,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.media {
+align-items: center;
+}
 .container{
   padding-top: 5vh;
 }
