@@ -74,23 +74,22 @@ $primary: #2196F3;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
-$skillsbg: #FFF9C4;
-$skillsprimary: #F44336;
-$skillsprimary-invert: findColorInvert($skillsprimary);
+$darkpage-bg: #1565C0;
+$darkpage-bg-invert: findColorInvert($darkpage-bg);
+$darkpage-primary: #FF7043;
+$darkpage-primary-invert: findColorInvert($darkpage-primary);
+$lightpage-bg: #42A5F5;
+$lightpage-bg-invert: findColorInvert($lightpage-bg);
+$lightpage-primary: #8E24AA;
+$lightpage-primary-invert: findColorInvert($lightpage-primary);
 $card-background-color: #FFAB91;
-$card-header-color: $skillsprimary;
-$card-footer-border-top: 0px solid $skillsprimary;
+$card-header-color: $darkpage-primary;
+$card-footer-border-top: 0px solid $darkpage-primary;
 $card-shadow: 0 4px 4px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1);
-$aboutprimary: #FFF59D;
-$aboutprimary-invert: findColorInvert($aboutprimary);
 $tabs-boxed-link-active-background-color: #F44336;
 $tabs-boxed-link-border-color: #F44336;
 $tabs-link-active-color: $white;
 $tabs-link-color: #4a4a4a;
-$blogprimary: #009688;
-$blogprimary-invert: findColorInvert($blogprimary);
-$workprimary: #ef9a9a;
-$workprimary-invert: findColorInvert($workprimary);
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
@@ -104,10 +103,10 @@ $colors: (
 "warning": ($warning, $warning-invert),
 "danger": ($danger, $danger-invert),
 "twitter": ($twitter, $twitter-invert),
-"skillsprimary": ($skillsprimary, $skillsprimary-invert),
-"aboutprimary": ($aboutprimary, $aboutprimary-invert),
-"blogprimary": ($blogprimary, $blogprimary-invert),
-"workprimary": ($workprimary, $workprimary-invert),
+"lightpagebg": ($lightpage-bg, $lightpage-bg-invert),
+"darkpagebg": ($darkpage-bg, $darkpage-bg-invert),
+"darkpageprimary": ($darkpage-primary, $darkpage-primary-invert),
+"lightpageprimary": ($lightpage-primary, $lightpage-primary-invert),
 );
 
 // Links
@@ -138,7 +137,7 @@ body {
 }
 
 .blog-container h4 {
-  border-bottom: solid 4px #4CAF50;
+  border-bottom: solid 4px $lightpage-primary;
   display: inline;
   padding-bottom: 4px;
   line-height: 200%;
@@ -162,20 +161,25 @@ ol {
 }
 .skillspage{
   height: 100%;
-  background-color: #FFF9C4;
+  background-color: $darkpage-bg;
 }
 .aboutpage{
   min-height: 100vh;
   height: 100%;
-  background-color: #3F51B5;
+  background-color: $lightpage-bg;
 }
 .blogpage{
   min-height: 100vh;
   height: 100%;
-  background-color: #FFF3E0;
+  background-color: $lightpage-bg;
 }
 .workpage{
   min-height: 100vh;
   height: 100%;
-  background-color: #ef9a9a;}
+  background-color: $darkpage-bg;
+}
+
+.box {
+  box-shadow: none;
+}
 </style>

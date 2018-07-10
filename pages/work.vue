@@ -3,13 +3,13 @@
     <section class="hero">
       <div class="container">
         <div class="has-text-centered">
-          <h1 class="title is-1" style="color: #B3E5FC">My Work</h1>
+          <h1 class="title is-1 has-text-light">My Work</h1>
         </div>
         <div class="columns is-mobile has-text-centered">
           <div class="column" style="padding-top: 2rem;">
-            <a target="_blank" href="https://github.com/thesudofox"><button class="button" style="color: #1565C0; background-color: #B3E5FC;">GitHub</button></a>
-            <a target="_blank" href="EthanFoxResume.pdf"><button class="button" style="color: #1565C0; background-color: #B3E5FC; margin: 0 1rem 0 1rem;">Resume</button></a>
-            <a target="_blank" href="https://www.linkedin.com/in/ethan-fox-5093a293/"><button class="button" style="color: #1565C0; background-color: #B3E5FC;">LinkedIn</button></a>
+            <a target="_blank" href="https://github.com/thesudofox"><button class="button has-background-darkpageprimary has-text-light">GitHub</button></a>
+            <a target="_blank" href="EthanFoxResume.pdf"><button class="button has-background-darkpageprimary has-text-light" style="margin: 0 1rem 0 1rem;">Resume</button></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ethan-fox-5093a293/"><button class="button has-background-darkpageprimary has-text-light">LinkedIn</button></a>
           </div>
         </div>
       </div>
@@ -17,8 +17,8 @@
     <section class="section">
 
 
-      <div style="background-color: #ffe0e0; padding: 2rem;" class="container">
-        <h1 class="is-3 title" style="color: #1565C0">Assistagrow</h1>
+      <div style="padding: 2rem;" class="container box">
+        <h1 class="is-3 title has-text-darkpageprimary">Assistagrow</h1>
         <h1 class="is-5 sub-title"><b>Title:</b> Co-Founder, Chief Product Officer</h1>
         <h1 class="is-5 sub-title"><b>Responsibilities:</b> Lead multiple product teams to produce an indoor agriculture automation solution. Lead design efforts for all products as well as helped in architecting/developing solutions. Worked to found the business and make day-to-day decisions. Filled any gaps that needed to be filled in the company, development or otherwise!</h1>
         <section class="section">
@@ -37,8 +37,8 @@
       </div>
     </section>
     <section class="section">
-      <div style="background-color: #ffe0e0; padding: 2rem;" class="container">
-        <h1 class="is-3 title" style="color: #1565C0">UniversityRecruitMe</h1>
+      <div style="padding: 2rem;" class="container box">
+        <h1 class="is-3 title has-text-darkpageprimary">UniversityRecruitMe</h1>
         <h1 class="is-5 sub-title"><b>Title:</b> Co-Founder, Chief Technology Officer</h1>
         <h1 class="is-5 sub-title"><b>Responsibilities:</b> To develop the web application and help achieve product-market fit. Work with team to coordinate architectural decisions and development across the organization. Fill any development gaps that needed to be filled.</h1>
         <section class="section">
@@ -94,5 +94,8 @@ p {
 }
 .workinfo{
   padding-top: 15vh;
+}
+button {
+  border: none;
 }
 </style>

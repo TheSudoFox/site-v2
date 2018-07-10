@@ -4,14 +4,14 @@
       <div class="container">
         <div class="columns is-mobile is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 has-text-aboutprimary">About Me</h1>
+            <h1 class="title is-1 has-text-light">About Me</h1>
           </div>
         </div>
       </div>
     </section>
     <section class="section">
       <div class="container">
-        <p class="aboutmeinfo">My name is Ethan Fox; I love learning about pretty much everything and bringing new ideas to life!
+        <p class="box aboutmeinfo has-text-grey-darker">My name is Ethan Fox; I love learning about pretty much everything and bringing new ideas to life!
 
         To fuel this fire, I spend a lot of my days reading, listening to audiobooks/podcasts, and watching videos online. The topics covered mainly centre around technology, science,
         and geopolitics. Those are my primary interests, I've spent long days down Google/YouTube/Wikipedia holes looking up
@@ -63,5 +63,7 @@ p {
 }
 .aboutmeinfo {
   padding-top: 1vh;
+  a {
+  }
 }
 </style>

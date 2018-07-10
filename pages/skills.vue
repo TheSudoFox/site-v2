@@ -4,11 +4,11 @@
       <div class="container">
         <div class="columns is-mobile is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 has-text-skillsprimary">My Skills</h1>
-            <h4 class="subtitle is-4">focused on bringing ideas to life</h4>
+            <h1 class="title is-1 has-text-light">My Skills</h1>
+            <h4 class="subtitle is-4 has-text-light">focused on bringing ideas to life</h4>
             <div class="container" style="padding: 1rem 0 1rem 0;">
               <a href="/EthanFoxResume.pdf">
-                <button class="button is-skillsprimary">Resume</button>
+                <button class="button is-darkpageprimary">Resume</button>
               </a>
             </div>
           </div>
@@ -24,7 +24,7 @@
     </section> -->
     <section class="section">
       <div class="container skills-container">
-        <h1 class="is-1 title">Front-end</h1>
+        <h1 class="is-1 title has-text-light">Front-end</h1>
         <!--<p class="is-size-4">In the world we see new iterations of technologies constantly emerging. I read what I can, write about some of it, and truly dig deep into even less. My goal is to find technologies that I think can make me better at what I want to do, <u>bringing ideas to life</u>.</p> -->
         <div class="box">
           <article class="media">
@@ -67,7 +67,7 @@
             </div>
           </article>
         </div>
-        <h1 class="is-1 title">UI / UX</h1>
+        <h1 class="is-1 title has-text-light">UI / UX</h1>
         <div class="box">
           <article class="media">
             <div class="media-content">
@@ -113,7 +113,7 @@
             </div>
           </article>
         </div>
-        <h1 class="is-1 title">Back-end</h1>
+        <h1 class="is-1 title has-text-light">Back-end</h1>
         <div class="box">
           <article class="media">
             <div class="media-content">
@@ -141,7 +141,7 @@
             </div>
           </article>
         </div>
-        <h1 class="is-1 title">Linux / DevOps</h1>
+        <h1 class="is-1 title has-text-light">Linux / DevOps</h1>
         <div class="box">
           <article class="media">
             <div class="media-content">
@@ -183,7 +183,7 @@
             </div>
           </article>
         </div>
-        <h1 class="is-1 title">Project management / Business development</h1>
+        <h1 class="is-1 title has-text-light">Project management / Business development</h1>
         <div class="box">
           <article class="media">
             <div class="media-content">
@@ -239,7 +239,7 @@ align-items: center;
   padding-top: 0;
 }
 h4 {
-  border-bottom: solid 3px #F44336;
+  border-bottom: solid 3px #FFAB91;
   display: inline;
   padding-bottom:4px;
   line-height: 200%;
