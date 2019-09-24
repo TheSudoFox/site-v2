@@ -2,6 +2,8 @@
 
 > Ethan's Personal Site
 
+Journey here: https://blog.ethanfox.me/blog/Creating-My-New-Site.html
+
 ## Build Setup
 
 ``` bash
